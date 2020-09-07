@@ -1,0 +1,3 @@
+{{- with resources.GetMatch (print "fontawesome/" . ".svg") -}}
+  {{- .Content | safeHTML -}}
+{{- end -}}
