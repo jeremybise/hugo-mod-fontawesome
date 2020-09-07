@@ -3,7 +3,7 @@
 # Mount Partial
 [[module.mounts]]
 source = "partials"
-target = "layouts/partials/feathericons"
+target = "layouts/partials/fontawesome"
 
 # FontAwesome Icons
 [[module.imports]]
